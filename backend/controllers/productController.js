@@ -54,7 +54,7 @@ const updateProduct = async (req, res) => {
 
     res.json(updatedProduct);
   } catch (error) {
-    console.error("Update error:", error);
+    console.log("Update error:", error);
     res.status(500).json({ message: "Server error", error });
   }
 };
