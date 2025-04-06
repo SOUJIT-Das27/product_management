@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #0008ff;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(0, 36, 179);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  table th, table td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #e8e7e7;
+  }
+  
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .link {
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    text-decoration:none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .link.delete {
+    color: red;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="file"],
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px rgb(207, 207, 207);
+  }
+  
+  form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  .details label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .image-upload label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .image-preview {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .image-box {
+    position: relative;
+    box-shadow:0px 0px 1px rgb(123, 123, 123);
+    border-radius: 4px;
+  }
+  
+  .image-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .image-box p {
+    text-align:center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #added-tag{
+    background-color: #0008ff;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-left:810px;
+  }
+
+  #added-tag:hover {
+    background-color: #030898;
+  }
+  .tags label {
+    font-weight: bold;
+  }
+  
+  .tag-list {
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
